@@ -1,7 +1,9 @@
 (in-package :cl-user)
 
 (defpackage :society
-  (:use :cl :lispbuilder-sdl)
+  (:use #:cl 
+        #:clim #:clim-sys #:clim-tab-layout)
   (:documentation "society simulator")
 
   )
+

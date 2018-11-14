@@ -1,44 +1,37 @@
 (in-package :society)
 
-;;;; structures
-
-
-(defun map ()
-  ;; Cell agent
-)
-
-(defmacro defmaptile (show update)
-  ;; show :: IO String 
-  ;; update :: Tile -> [Tile] -> Tile
-)
 
 
 
-(defstruct agent-dna
+;; inflation
+;; world am filler ov overlaided layers of nil containd overlaided layers.
+
+;; the world had started to filled of wired-lines
+(defun init-space ()
   
-)
-
-(defstruct agent
-  
-)
+  )
 
 
-(defstruct world
-  ()
-)
+
+;; thought-body physics
+;; 
 
 
-;;;; times,spaces
+;; material physics
 
-(defun update (world)
-)
 
-;;;; 
-(defun init-world (rule)
-)
+;; livings born
+(defmacro defrule ()
+  )
 
-(defun init-state (rule)
-)
 
-(defun update-state (state)
-)
+
+
+
+(defun start-simulate ()
+  )
+
+
+
+;; vision
+
